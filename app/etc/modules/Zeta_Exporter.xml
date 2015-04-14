@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Zeta_Exporter>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Zeta_Exporter>
+    </modules>
+</config>

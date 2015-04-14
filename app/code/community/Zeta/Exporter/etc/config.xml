@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Zeta_Exporter>
+            <version>0.1.0</version>
+        </Zeta_Exporter>
+    </modules>
+    <global>
+        <models>
+            <zeta_exporter>
+                <class>Zeta_Exporter_Model</class>
+                <resourceModel>zeta_exporter_resource</resourceModel>
+            </zeta_exporter>
+            <zeta_exporter_resource>
+                <class>Zeta_Exporter_Model_Resource</class>
+            </zeta_exporter_resource>
+        </models>
+        <blocks>
+            <zeta_exporter>
+                <class>Zeta_Exporter_Block</class>
+            </zeta_exporter>
+        </blocks>
+        <helpers>
+            <zeta_exporter>
+                <class>Zeta_Exporter_Helper</class>
+            </zeta_exporter>
+        </helpers>
+    </global>
+</config>
