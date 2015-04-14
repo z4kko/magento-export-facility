@@ -26,4 +26,26 @@
             </zeta_exporter>
         </helpers>
     </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <zeta_exporter before="Mage_Adminhtml">Zeta_Exporter_Adminhtml</zeta_exporter>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <adminhtml>
+        <translate>
+            <modules>
+                <zeta_exporter>
+                    <files>
+                        <default>Zeta_Exporter.csv</default>
+                    </files>
+                </zeta_exporter>
+            </modules>
+        </translate>
+    </adminhtml>
 </config>

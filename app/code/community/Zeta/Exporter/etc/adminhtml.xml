@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <newsletter>
+            <children>
+                <zeta_exporter_sync_order_with_newsletter translate="title" module="zeta_exporter">
+                    <title>Synch with Order</title>
+                    <sort_order>40</sort_order>
+                    <action>adminhtml/exporter_newsletter/sync</action>
+                </zeta_exporter_sync_order_with_newsletter>
+            </children>
+        </newsletter>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <newsletter>
+                        <children>
+                            <zeta_exporter_sync_order_with_newsletter>
+                                <title>Synchronize customer emails from orders to newsletter</title>
+                            </zeta_exporter_sync_order_with_newsletter>
+                        </children>
+                    </newsletter>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
